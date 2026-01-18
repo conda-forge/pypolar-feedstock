@@ -1,5 +1,5 @@
 {% set name = "pypolar" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pypolar-{{ version }}.tar.gz
-  sha256: bce783856e64a5000be6f00e0890566ada7af043c849317334d7a6eb889c3beb
+  sha256: 5e6b28793d05f217ca73959b20ad2636feb9a61c4d9029d7a63bc1bc37e8cfc0
 
 build:
   noarch: python
